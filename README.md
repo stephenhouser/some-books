@@ -9,7 +9,9 @@ Check out the working demo: http://stephenhouser.github.io/some-books/
 
 In typical usage the `data/some-books.csv` is updated with new books we have read or are reading. Then, viola, the site is magically and deliciously updated.
 
-## Changing the Code (from [derekeder/csv-to-html-table](https://github.com/derekeder/csv-to-html-table))
+## Changing the Code 
+
+Adapted from [derekeder/csv-to-html-table](https://github.com/derekeder/csv-to-html-table).
 
 #### 1. Clone this repository (in the command line)
 
