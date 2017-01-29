@@ -1,16 +1,21 @@
-# CSV to HTML Table
+# SoME Book List
 
-Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100% JavaScript.
+## About
+Display CSV list of books from the Southern Maine Men's Book club in a searchable, filterable, pretty HTML table. Done in 100% JavaScript. Forked from [derekeder/csv-to-html-table](https://github.com/derekeder/csv-to-html-table).
 
-Check out the working demo: http://derekeder.github.io/csv-to-html-table/
+Check out the working demo: http://stephenhouser.github.io/some-books/
 
 ## Usage
+
+In typical usage the `data/some-books.csv` is updated with new books we have read or are reading. Then, viola, the site is magically and deliciously updated.
+
+## Changing the Code (from [derekeder/csv-to-html-table](https://github.com/derekeder/csv-to-html-table))
 
 #### 1. Clone this repository (in the command line)
 
 ``` bash
-git clone git@github.com:derekeder/csv-to-html-table.git
-cd csv-to-html-table
+git clone git@github.com:stephenhouser/some-books.git
+cd some-books
 ```
 
 #### 2. Add your CSV file to the `data/` folder
@@ -20,7 +25,7 @@ cd csv-to-html-table
 ``` html
 <script>
   CsvToHtmlTable.init({
-    csv_path: 'data/Health Clinics in Chicago.csv', 
+    csv_path: 'data/some-books.csv', 
     element: 'table-container', 
     allow_download: true,
     csv_options: {separator: ',', delimiter: '"'},
@@ -59,7 +64,7 @@ Example:
 
   //initializing the table
   CsvToHtmlTable.init({
-    csv_path: 'data/Health Clinics in Chicago.csv', 
+    csv_path: 'data/some-books.csv', 
     element: 'table-container', 
     allow_download: true,
     csv_options: {separator: ',', delimiter: '"'},
@@ -86,7 +91,7 @@ navigate to http://localhost:8000/
 git push origin master:gh-pages
 ```
 
-Then navigate to http://your-github-username.github.io/csv-to-html-table/
+Then navigate to http://your-github-username.github.io/some-books/
 
 Read more on working with [GitHub pages projects](https://help.github.com/articles/user-organization-and-project-pages/#project-pages).
 
@@ -97,7 +102,7 @@ Read more on working with [GitHub pages projects](https://help.github.com/articl
 Want to embed your nifty table on your website? You can use an [iframe](http://www.w3schools.com/tags/tag_iframe.asp). Once you've deployed your table (above in step 5) you can link to it in an iframe right in your HTML.
 
 ```html
-<iframe style="border-style: none;" src="http://derekeder.github.io/csv-to-html-table/" height="950" width="600"></iframe>
+<iframe style="border-style: none;" src="http://stephenhouser.github.io/some-books/" height="950" width="600"></iframe>
 ```
 
 ## Dependencies
@@ -132,3 +137,5 @@ Report it here: https://github.com/derekeder/csv-to-html-table/issues
 ## Copyright
 
 Copyright (c) 2015 Derek Eder. Released under the [MIT License](https://github.com/derekeder/csv-to-html-table/blob/master/LICENSE).
+
+Changes for Southern Maine Men's Book club Copyright (c) 2017 Stephen Houser. Released under the [MIT License]().
