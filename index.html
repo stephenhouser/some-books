@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>CSV to HTML Table</title>
+    <title>SoME: Book History</title>
     <meta name="author" content="Derek Eder">
     <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
 
@@ -23,11 +23,11 @@
   <body>
     <div class="container-fluid">
 
-      <h2>CSV to HTML Table</h2>
+      <h1>Southern Maine Men's Book Club</h1>
+      <h2>Book History</h2>
 
-      <p>Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100% JavaScript. <a href='https://github.com/derekeder/csv-to-html-table'>Code on GitHub</a>.</p>
-
-      <p>Here's a table of Health Clinics from the <a href='https://data.cityofchicago.org/browse?q=health%20clinic&sortBy=relevance&utf8=%E2%9C%93'>City of Chicago Data Portal</a>.</p>
+      <p>This is a list of all the books we have read as a group since November 2004. 
+        You can find more information about us and our books on <a href="https://www.goodreads.com/group/show/56478-southern-maine-men-s-book-club">Good Reads</a>.
       
       <div id='table-container'></div>
 
@@ -59,13 +59,40 @@
           return "";
       }
 
+      function format_thumbnail(link){
+        if (link)
+          return "<img height='100' src='" + link + "' />";
+        else
+          return "";
+      }
+
+
       CsvToHtmlTable.init({
-        csv_path: 'data/Health Clinics in Chicago.csv',
+        csv_path: 'data/some-books.csv',
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false},
-        custom_formatting: [[4, format_link]]
+        datatables_options: {
+          "paging": false,
+          "columnDefs": [
+            {
+              "targets": [6, 7, 8, 9],
+              "visible": false
+            },
+            {
+              "targets": 1,
+              "render": function(data, type, row) {
+                return "<img height='100' src='" + row[8] + "' />";
+              }
+            },
+            {
+              "targets": 2,
+              "render": function(data, type, row) {
+                return "<a href='" + row[7] + "' target='_blank'>" + row[2] + "</a>";
+              }
+            }
+          ]}
+        /*custom_formatting: [[7, format_thumbnail]]*/
       });
     </script>
   </body>
