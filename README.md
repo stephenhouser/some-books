@@ -3,7 +3,7 @@
 ## About
 Display CSV list of books from the Southern Maine Men's Book club in a searchable, filterable, pretty HTML table. Done in 100% JavaScript. Forked from [derekeder/csv-to-html-table](https://github.com/derekeder/csv-to-html-table).
 
-Check out the working demo: http://stephenhouser.github.io/some-books/
+Check out the live site: http://stephenhouser.github.io/some-books/
 
 ## Usage
 
