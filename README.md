@@ -5,6 +5,8 @@ Display CSV list of books from the Southern Maine Men's Book club in a searchabl
 
 Check out the live site: http://stephenhouser.github.io/some-books/
 
+Using Amazon images as per [How to get book cover image url using ISBN](http://stackoverflow.com/questions/33886418/how-to-get-book-cover-image-url-using-isbn) on StackOverflow.
+
 ## Usage
 
 In typical usage the `data/some-books.csv` is updated with new books we have read or are reading. Then, viola, the site is magically and deliciously updated.
