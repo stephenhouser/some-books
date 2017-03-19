@@ -1,113 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>SoME: Book History</title>
-    <meta name="author" content="Derek Eder">
-    <meta content="Display any CSV file as a searchable, filterable, pretty HTML table" />
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SoME: Book History</title>
+		<meta name="author" content="Stephen Houser">
+		<meta content="Display books read by the Southern Maine Men's Book Club'" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
 
-    <link href="http://stephenhouser.com/css/main.css" rel="stylesheet">
+		<script type="text/javascript" src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+		<link rel="stylesheet" href="http://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
 
-    <style>
-      .wrapper { max-width: 80%; }
-    </style>
+		<!-- Bootstrap Tables -->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+		<link href="http://stephenhouser.com/css/main.css" rel="stylesheet">
 
-  <body>
-    <div class="page-content"><div class="wrapper">
-    <div class="container-fluid">
+		<style>
+			.wrapper { max-width: 80%; }
+		</style>
+	</head>
+	<body>
+		<div class="page-content"><div class="wrapper">
+			<div class="container-fluid">
 
-      <h1>Southern Maine Men's Book Club</h1>
-      <h2>Book History</h2>
+				<h1>Southern Maine Men's Book Club</h1>
+				<h2>Book History</h2>
 
-      <p>This is a list of all the books we have read as a group since November 2004. 
-        You can find more information about us and our books on <a href="https://www.goodreads.com/group/show/56478-southern-maine-men-s-book-club">Good Reads</a>.
-      
-      <div id='table-container'></div>
+				<p>This is a list of all the books we have read as a group since November 2004. 
+					You can find more information about us and our books on <a href="https://www.goodreads.com/group/show/56478-southern-maine-men-s-book-club">Good Reads</a>.
+			
+				<table id="some-books" class="display" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th>Meeting Date</th>
+							<th>Cover</th>
+							<th>Title</th>
+							<th>Author</th>
+							<th>Leader</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th>Meeting Date</th>
+							<th>Cover</th>
+							<th>Title</th>
+							<th>Author</th>
+							<th>Leader</th>
+							<th>Notes</th>
+						</tr>
+					</tfoot>
+				</table>
 
-    </div><!-- /.container -->
+			</div><!-- /.container -->
 
-    <footer class='footer'>
-      <div class='container-fluid'>
-        <hr />
-        <p class='pull-right'><a href='https://github.com/derekeder/csv-to-html-table'>CSV to HTML Table</a> by <a href='http://derekeder.com'>Derek Eder</a></p>
-      </div>
-    </footer>
-    </div></div>
+			<footer class='footer'>
+				<div class='container-fluid'>
+					<hr />
+					<p class='pull-right'><a href='https://github.com/stephenhouser/some-books'>Some-Books</a> by <a href='http://stephenhouser.com'>Stephen Houser</a></p>
+				</div>
+			</footer>
+		
+		</div></div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
-    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
-    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+		<script type="text/javascript">
+			function amazon_product_uri(isbn) {
+				return "http://www.amazon.com/dp/product/" + isbn;
+			}
 
+			function amazon_thumbnamil_uri(isbn) {
+				return "http://images.amazon.com/images/P/" + isbn + ".01.jpg";
+			}
 
-    <script type="text/javascript">
-      function format_link(link){
-        if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-        else
-          return "";
-      }
-
-      function format_thumbnail(link){
-        if (link)
-          return "<img height='100' src='" + link + "' />";
-        else
-          return "";
-      }
+			function amazon_cover_uri(isbn) {
+				return "http://images.amazon.com/images/P/" + isbn + ".jpg";
+			}
 
 
-      CsvToHtmlTable.init({
-        csv_path: 'data/some-books.csv',
-        element: 'table-container', 
-        allow_download: true,
-        csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {
-          "order": [
-            [0, "desc"]
-          ],
-          "columns": [
-            {"width": "15%", "targets": 0 }
-          ],
-          "paging": false,
-          "columnDefs": [
-            {
-              "targets": [6, 7, 8, 9],
-              "visible": false
-            },
-            {
-              "targets": 1,
-              "render": function(data, type, row) {
-                return "<img height='100' src='" + row[8] + "' />";
-              }
-            },
-            {
-              "targets": 2,
-              "render": function(data, type, row) {
-                return "<a href='" + row[7] + "' target='_blank'>" + row[2] + "</a>";
-              }
-            }
-          ]}
-        /*custom_formatting: [[7, format_thumbnail]]*/
-      });
-    </script>
-  </body>
+			function book_uri(row) {
+				if (row["uri"]) {
+					return row["uri"];
+				} else {
+					return amazon_product_uri(row["isbn"]);
+				}
+			}
+
+			function thumbnail_uri(row) {
+				if (row["thumbnail"]) {
+					return row["thumbnail"];
+				} else {
+					return amazon_thumbnamil_uri(row["isbn"]);
+				}
+			}
+
+			$(document).ready(function() {
+				$('#some-books').DataTable( {
+					"ajax": {
+						"url": "some-books.json",
+						"dataSrc": ""
+					},
+					"paging": false,
+					"order": [[0, "desc"]],
+					"columns": [
+						{ "data": "date", "width": "12%" },
+						{ "data": null, "orderable": false },
+						{ "data": "title" },
+						{ "data": "author" },
+						{ "data": "leader", "defaultContent": "" },
+						{ "data": "notes", "defaultContent": "", "width": "15%" }
+					],
+					"columnDefs": [
+						{	
+							"targets": 1,
+							"render": function(data, type, row) {
+								return "<a href='" + book_uri(row) + "' target='_blank'>"
+									+ "<img height='100' src='" + thumbnail_uri(row) + "' />"
+									//+ "<img height='100' src='" + amazon_thumbnamil_uri(row["isbn"]) + "' />"
+									//+ "<img height='100' src='" + row["cover_thumbnail"] + "' />"
+									+ "</a>";
+							}
+						},
+						{	
+							"targets": 2,
+							"render": function(data, type, row) {
+								return "<a href='" + book_uri(row) + "' target='_blank'>" + data + "</a>";
+							}
+						}
+					]
+				} );
+			} );
+		</script>
+	</body>
 </html>
