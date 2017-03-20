@@ -18,6 +18,8 @@
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
 
+		<script type="text/javascript" src="https://rawgit.com/jeremyfa/yaml.js/develop/dist/yaml.min.js"></script>"
+
 		<link href="http://stephenhouser.com/css/main.css" rel="stylesheet">
 
 		<style>
@@ -101,8 +103,11 @@
 			$(document).ready(function() {
 				$('#some-books').DataTable( {
 					"ajax": {
-						"url": "some-books.json",
-						"dataSrc": ""
+						"url": "some-books.yml",
+						"dataType": "text",
+						"dataSrc": function(yaml) {
+							return YAML.parse(yaml);
+						}
 					},
 					"paging": false,
 					"order": [[0, "desc"]],
