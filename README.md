@@ -16,7 +16,7 @@ In typical usage the `some-books.json` is updated with new books we have read or
 
 Originally adapted from [derekeder/csv-to-html-table](https://github.com/derekeder/csv-to-html-table). Which would convert CSV files for use by jQuery DataTables. I no longer use any of Derek's code, but have an appreciation and give thanks for his work.
 
-Uses [jQuery]([jQuery DataTables](https://datatables.net)), but only for the [jQuery DataTables](https://datatables.net) plugin.
+Uses [jQuery](https://jquery.com), but only for the [jQuery DataTables](https://datatables.net) plugin.
 
 Uses [jeremyfa/yaml.js](https://github.com/jeremyfa/yaml.js) to convert [YAML](http://www.yaml.org) to [JSON](http://www.json.org) for [jQuery DataTables](https://datatables.net).
 
