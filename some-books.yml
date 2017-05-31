@@ -530,8 +530,16 @@
     isbn: '0307475948'
 -
     date: '2017-05-20'
+    title: 'The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art'
+    author: 'Don Thompson'
+    leader: Rush Brown
+    isbn: '0230610226'
+-
+    date: '2017-07-??'
     title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life'
     author: 'Mark Manson'
+    leader: 'Stephen Houser'
+    notes: 'I regret chosing this book.'
     isbn: '0062457713'
 
     
