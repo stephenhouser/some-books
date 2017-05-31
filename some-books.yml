@@ -515,13 +515,14 @@
     leader: Joe Austin
     notes: Two books this month. Tesla is only 50 pages or so.
     isbn: '0143109790'
--
-    date:  '2017-04-15'
-    title: 'Hillbilly Elegy: A Memoir of a Family and Culture in Crisis'
-    author: Vance, J. D.
-    leader: Rush Brown
-    notes: Read-ahead for next month (May 2017).
-    isbn: '0062300547'
+# Not Read
+#-
+#    date:  '2017-04-15'
+#    title: 'Hillbilly Elegy: A Memoir of a Family and Culture in Crisis'
+#    author: Vance, J. D.
+#    leader: Rush Brown
+#    notes: Read-ahead for next month (May 2017).
+#    isbn: '0062300547'
 -
     date:  '2017-04-15'
     title: 'Custer''s Trials: A Life on the Frontier of a New America'
@@ -532,7 +533,5 @@
     title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life'
     author: 'Mark Manson'
     isbn: '0062457713'
-#    cover_img: 'https://images-na.ssl-images-amazon.com/images/I/51c34QgUM0L.jpg'
-#    thumbnail_img: 'https://images-na.ssl-images-amazon.com/images/I/51c34QgUM0L.jpg'
 
     
