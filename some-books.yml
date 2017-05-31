@@ -457,9 +457,14 @@
     isbn: '1476784949'
 -
     date:  '2016-02-13'
-    title: A Short History of Nearly Everything
-    author: Bryson, Bill
-    isbn: 076790818X
+    title: 'A Short History of Nearly Everything'
+    author: 'Bryson, Bill'
+    isbn: '076790818X'
+-   
+    date: '2016-03-20'
+    title: 'Better Living Through Criticism: How to Think About Art, Pleasure, Beauty, and Truth'
+    author: 'A.O. Scott'
+    isbn: '1594204837'
 -
     date:  '2016-05-15'
     title: The Rise of Theodore Roosevelt
