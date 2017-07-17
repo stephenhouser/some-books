@@ -24,6 +24,34 @@
 
 		<style>
 			.wrapper { max-width: 80%; }
+			#current-book img {
+				float: right;
+				margin-left: 5em;
+				max-height: 250px;
+			}
+
+			#current-book {
+				overflow: auto;
+			}
+
+			#current-book::after {
+				clear: both;
+			}
+
+			#current-book .title,
+			#current-book .author,
+			#current-book .leader,
+			#current-book .isbn,
+			#current-book .meeting,
+			#current-book .notes {
+				font-weight: bold;
+			}
+
+			.indent {
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		</style>
 	</head>
 	<body>
@@ -31,34 +59,48 @@
 			<div class="container-fluid">
 
 				<h1>Southern Maine Men's Book Club</h1>
-				<h2>Book History</h2>
 
-				<p>This is a list of all the books we have read as a group since November 2004. 
-					You can find more information about us and our books on <a href="https://www.goodreads.com/group/show/56478-southern-maine-men-s-book-club">Good Reads</a>.
-			
-				<table id="some-books" class="display" cellspacing="0" width="100%">
-					<thead>
-						<tr>
-							<th>Meeting Date</th>
-							<th>Cover</th>
-							<th>Title</th>
-							<th>Author</th>
-							<th>Leader</th>
-							<th>Notes</th>
-						</tr>
-					</thead>
-					<tfoot>
-						<tr>
-							<th>Meeting Date</th>
-							<th>Cover</th>
-							<th>Title</th>
-							<th>Author</th>
-							<th>Leader</th>
-							<th>Notes</th>
-						</tr>
-					</tfoot>
-				</table>
+				<div id="current-book">
+					<h2>Currently Reading</h2>
+					<div class="indent">
+						<a><img class="cover" /></a>
+						<h3><a class="title"></a></h3>
+						<p>By <span class="author"></span></p>
+						<p>isbn: <a class="isbn"></a></p>
+						<p>Selected By: <span class="leader"></span></p>
+						<p>Meeting Date: <span class="meeting"></span></p>
+						<p>Notes: <span class="notes"></span></p>
+					</div>
+				</div>
 
+				<div id="book-history">
+					<h2>Book History</h2>
+					<p>This is a list of all the books we have read as a group since November 2004. 
+						You can find more information about us and our books on <a href="https://www.goodreads.com/group/show/56478-southern-maine-men-s-book-club">Good Reads</a>.
+
+					<table id="some-books" class="display" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th>Meeting Date</th>
+								<th>Cover</th>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Leader</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>Meeting Date</th>
+								<th>Cover</th>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Leader</th>
+								<th>Notes</th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
 			</div><!-- /.container -->
 
 			<footer class='footer'>
@@ -71,6 +113,53 @@
 		</div></div>
 
 		<script type="text/javascript">
+			function formatDate(date) {
+				var monthNames = [
+					"January", "February", "March",
+					"April", "May", "June", "July",
+					"August", "September", "October",
+					"November", "December"
+				];
+
+				var day = date.getDate();
+				var monthIndex = date.getMonth();
+				var year = date.getFullYear();
+
+				return monthNames[monthIndex] + ' ' + day + ', ' + year;
+			}
+
+			function is_current_book(book) {
+				return 'current' in book && book.current == true;
+			}
+
+			function setup_current_book(book) {
+				$('#current-book .cover').attr('src', amazon_cover_uri(book.isbn));
+				$('#current-book .title').text(book.title);
+				$('#current-book .author').text(book.author);
+				$('#current-book .isbn').text(book.isbn);
+
+				var meeting = new Date(book.date);
+				if (meeting) {
+					console.log(meeting);
+					$('#current-book .meeting').text(formatDate(meeting));
+				} else {
+					$('#current-book .meeting').text(book.date);
+				}
+
+				if ('leader' in book) {
+					$('#current-book .leader').text(book.leader);
+				}
+
+				if ('notes' in book) {
+					$('#current-book .notes').text(book.notes);
+				}
+
+				// Make all A elements link to the Amazon entry for the book
+				$('#current-book a').each(function(index) {
+					$(this).attr('href', amazon_product_uri(book.isbn));
+				});
+			}
+
 			function amazon_product_uri(isbn) {
 				return "http://www.amazon.com/dp/product/" + isbn;
 			}
@@ -82,7 +171,6 @@
 			function amazon_cover_uri(isbn) {
 				return "http://images.amazon.com/images/P/" + isbn + ".jpg";
 			}
-
 
 			function book_uri(row) {
 				if (row["uri"]) {
@@ -106,7 +194,9 @@
 						"url": "some-books.yml",
 						"dataType": "text",
 						"dataSrc": function(yaml) {
-							return YAML.parse(yaml);
+							var books = YAML.parse(yaml);
+							setup_current_book(books.find(is_current_book));
+							return books;
 						}
 					},
 					"paging": false,

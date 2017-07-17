@@ -552,4 +552,11 @@
     notes: 'I regret chosing this book.'
     isbn: '0062457713'
 
+-
+    date: '2017-08-26'
+    title: 'Worldly Goods: A New History of the Renissance'
+    author: 'Lisa Jardine'
+    leader: 'Bill Blais'
+    isbn: '0385476841'
+    current: true
     
