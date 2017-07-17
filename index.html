@@ -20,6 +20,10 @@
 
 		<script type="text/javascript" src="https://rawgit.com/jeremyfa/yaml.js/develop/dist/yaml.min.js"></script>"
 
+		<!-- Add to calendar functions -->
+		<script type="text/javascript" src="https://rawgit.com/carlsednaoui/add-to-calendar-buttons/master/ouical.min.js"></script>
+
+
 		<link href="http://stephenhouser.com/css/main.css" rel="stylesheet">
 
 		<style>
@@ -52,6 +56,12 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
+
+			.add-to-calendar {
+				display: inline;
+				font-weight: normal;
+				margin-left: 1em;
+			}
 		</style>
 	</head>
 	<body>
@@ -68,7 +78,7 @@
 						<p>By <span class="author"></span></p>
 						<p>isbn: <a class="isbn"></a></p>
 						<p>Selected By: <span class="leader"></span></p>
-						<p>Meeting Date: <span class="meeting"></span></p>
+						<p>Meeting Date: <span class="meeting"></span>
 						<p>Notes: <span class="notes"></span></p>
 					</div>
 				</div>
@@ -158,6 +168,19 @@
 				$('#current-book a').each(function(index) {
 					$(this).attr('href', amazon_product_uri(book.isbn));
 				});
+
+				// Make an "add to calendar" link
+				var myCalendar = createCalendar({
+					options: { class: 'calendar' },
+					data: {
+						title: 'SoME Book Club Meeting',     // Event title
+						start: meeting,   // Event start date
+						duration: 120,                            // Event duration (IN MINUTES)
+						address: book.location,
+						description: book.title
+					}
+				});
+				document.querySelector('.meeting').appendChild(myCalendar);
 			}
 
 			function amazon_product_uri(isbn) {
@@ -227,8 +250,8 @@
 							}
 						}
 					]
-				} );
-			} );
+				});
+			});
 		</script>
 	</body>
 </html>
