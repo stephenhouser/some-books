@@ -558,5 +558,11 @@
     author: 'Lisa Jardine'
     leader: 'Bill Blais'
     isbn: '0385476841'
-    current: true
     
+-
+    date: '2017-11-11'
+    title: 'Sapiens: A Brief History of Humankind'
+    author: 'Yuval Noah Harari'
+    leader: 'Stephen Houser'
+    isbn: '0062316117'
+    current: true
