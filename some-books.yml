@@ -145,7 +145,7 @@
     thumbnail: https://images-na.ssl-images-amazon.com/images/I/41US6kUoTjL.jpg
 -
     date:  '2009-06-14'
-    title: 'he Professor and the Madman: A Tale of Murder, Insanity, and the Making of the Oxford English Dictionary'
+    title: 'The Professor and the Madman: A Tale of Murder, Insanity, and the Making of the Oxford English Dictionary'
     author: Winchester, Simon
     leader: Stephen Houser
     isbn: '0060839783'
@@ -551,6 +551,9 @@
     leader: 'Stephen Houser'
     notes: 'I regret chosing this book.'
     isbn: '0062457713'
+    cover_img: https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL.jpg
+    thumbnail: https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL.jpg
+    
 
 -
     date: '2017-09-16'
