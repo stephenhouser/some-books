@@ -565,4 +565,18 @@
     author: 'Yuval Noah Harari'
     leader: 'Stephen Houser'
     isbn: '0062316117'
+
+-
+    date: '2017-12-16'
+    title: 'Leonardo da Vinci'
+    author: 'Walter Isaacson'
+    leader: 'Stephen Houser'
+    isbn: '1501139150'
+    
+-
+    date: '2018-01-27'
+    title: 'The Girl with Seven Names'
+    author: 'Hyeonseo Lee'
+    leader: 'Bill Phillips'
+    isbn: '0007554850'
     current: true
