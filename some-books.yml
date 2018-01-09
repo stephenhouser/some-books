@@ -583,3 +583,12 @@
     leader: 'Bill Phillips'
     isbn: '0007554850'
     current: true
+    
+-
+    date: '2018-01-27'
+    title: 'Dear Leader: Poet, Spy, Escapee - A Look inside North Korea'
+    author: 'Jang Jin-sung and Daniel York'
+    leader: 'Bill Phillips'
+    isbn: '1476766568'
+    notes: 'Alternate or additional book for those who want more depth.'
+    
