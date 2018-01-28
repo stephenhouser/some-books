@@ -599,4 +599,5 @@
     isbn: '0691170819'
     leader: 'Stephen Houser'
     notes: 'Date is tentative'
+    current: true
    
