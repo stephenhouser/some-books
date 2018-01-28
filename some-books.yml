@@ -573,7 +573,7 @@
 -
     date: '2017-12-16'
     title: 'Leonardo da Vinci'
-    author: 'Isaacson, Walter '
+    author: 'Isaacson, Walter'
     leader: 'Stephen Houser'
     isbn: '1501139150'
     
@@ -598,5 +598,5 @@
     author: 'Levinson, Marc'
     isbn: '0691170819'
     leader: 'Stephen Houser'
-    notes: 'Date is tentative.'
-    
+    notes: 'Date is tentative'
+   
