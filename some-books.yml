@@ -525,6 +525,7 @@
     leader: Joe Austin
     notes: Two books this month. Tesla is only 50 pages or so.
     isbn: '0143109790'
+
 # Not Read
 #-
 #    date:  '2017-04-15'
@@ -533,6 +534,7 @@
 #    leader: Rush Brown
 #    notes: Read-ahead for next month (May 2017).
 #    isbn: '0062300547'
+
 -
     date:  '2017-04-15'
     title: 'Custer''s Trials: A Life on the Frontier of a New America'
@@ -541,54 +543,60 @@
 -
     date: '2017-05-20'
     title: 'The $12 Million Stuffed Shark: The Curious Economics of Contemporary Art'
-    author: 'Don Thompson'
+    author: 'Thompson, Don'
     leader: Rush Brown
     isbn: '0230610226'
 -
     date: '2017-07-15'
     title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life'
-    author: 'Mark Manson'
+    author: 'Manson, Mark'
     leader: 'Stephen Houser'
     notes: 'I regret chosing this book.'
     isbn: '0062457713'
     cover_img: https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL.jpg
     thumbnail: https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL.jpg
     
-
 -
     date: '2017-09-16'
     title: 'Worldly Goods: A New History of the Renissance'
-    author: 'Lisa Jardine'
+    author: 'Jardine, Lisa'
     leader: 'Bill Blais'
     isbn: '0385476841'
     
 -
     date: '2017-11-11'
     title: 'Sapiens: A Brief History of Humankind'
-    author: 'Yuval Noah Harari'
+    author: 'Harari, Yuval Noah'
     leader: 'Stephen Houser'
     isbn: '0062316117'
 
 -
     date: '2017-12-16'
     title: 'Leonardo da Vinci'
-    author: 'Walter Isaacson'
+    author: 'Isaacson, Walter '
     leader: 'Stephen Houser'
     isbn: '1501139150'
     
 -
     date: '2018-01-28'
     title: 'The Girl with Seven Names'
-    author: 'Hyeonseo Lee'
+    author: 'Lee, Hyeonseo'
     leader: 'Bill Phillips'
     isbn: '0007554850'
-    current: true
     
 -
     date: '2018-01-28'
     title: 'Dear Leader: Poet, Spy, Escapee - A Look inside North Korea'
-    author: 'Jang Jin-sung and Daniel York'
+    author: 'Jin-sung, Jang and York, Daniel'
     leader: 'Bill Phillips'
     isbn: '1476766568'
     notes: 'Alternate or additional book for those who want more depth.'
+    
+-
+    date: '2018-03-03'
+    title: 'The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger'
+    author: 'Levinson, Marc'
+    isbn: '0691170819'
+    leader: 'Stephen Houser'
+    notes: 'Date is tentative.'
     
