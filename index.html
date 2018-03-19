@@ -21,8 +21,7 @@
 		<script type="text/javascript" src="https://rawgit.com/jeremyfa/yaml.js/develop/dist/yaml.min.js"></script>"
 
 		<!-- Add to calendar functions -->
-		<script type="text/javascript" src="https://rawgit.com/carlsednaoui/add-to-calendar-buttons/master/ouical.min.js"></script>
-
+		<!-- <script type="text/javascript" src="https://rawgit.com/carlsednaoui/add-to-calendar-buttons/master/ouical.min.js"></script> -->
 
 		<link href="http://stephenhouser.com/css/main.css" rel="stylesheet">
 
@@ -170,17 +169,17 @@
 				});
 
 				// Make an "add to calendar" link
-				var myCalendar = createCalendar({
-					options: { class: 'calendar' },
-					data: {
-						title: 'SoME Book Club Meeting',     // Event title
-						start: meeting,   // Event start date
-						duration: 120,                            // Event duration (IN MINUTES)
-						address: book.location,
-						description: book.title
-					}
-				});
-				document.querySelector('.meeting').appendChild(myCalendar);
+				// var myCalendar = createCalendar({
+				// 	options: { class: 'calendar' },
+				// 	data: {
+				// 		title: 'SoME Book Club Meeting',     // Event title
+				// 		start: meeting,   // Event start date
+				// 		duration: 120,                            // Event duration (IN MINUTES)
+				// 		address: book.location,
+				// 		description: book.title
+				// 	}
+				// });
+				// document.querySelector('.meeting').appendChild(myCalendar);
 			}
 
 			function amazon_product_uri(isbn) {
