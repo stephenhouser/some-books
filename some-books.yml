@@ -593,11 +593,27 @@
     notes: 'Alternate or additional book for those who want more depth.'
     
 -
-    date: '2018-03-03'
+    date: '2018-03-17'
     title: 'The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger'
     author: 'Levinson, Marc'
     isbn: '0691170819'
     leader: 'Stephen Houser'
     notes: 'Date is tentative'
+   
+-
+    date: '2018-05-05'
+    title: 'Islam and the Future of Tolerance: A Dialogue'
+    author: 'Sam Harris, Maajid Nawaz'
+    isbn: 'B019711Z88'
+    leader: 'Bill Phillips'
+    notes: 'The shorter (first) of the two for this month'
     current: true
+   
+-
+    date: '2018-05-05'
+    title: 'The Strange Death of Europe: Immigration, Identity, and Islam'
+    author: 'Levinson, Marc'
+    isbn: 'B06X9FP3RF'
+    leader: 'Bill Phillips'
+    notes: 'The longer (second) of the two for this month'
    
