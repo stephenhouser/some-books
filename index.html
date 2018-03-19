@@ -148,7 +148,7 @@
 				$('#current-book .author').text(book.author);
 				$('#current-book .isbn').text(book.isbn);
 
-				var meeting = new Date(book.date);
+				var meeting = new Date(book.date + 'T09:00');
 				if (meeting) {
 					console.log(meeting);
 					$('#current-book .meeting').text(formatDate(meeting));
