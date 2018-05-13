@@ -621,5 +621,5 @@
     isbn: '0345816021'
     author: 'Peterson, Jordan'
     leader: 'Stephen Houser'
-    notes: "Meeting at Stephen's house"
+    location: 'Stephen''s House'
     current: true
