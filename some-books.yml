@@ -622,4 +622,12 @@
     author: 'Peterson, Jordan'
     leader: 'Stephen Houser'
     location: 'Stephen''s House'
+
+-
+    date: '2018-07-09'
+    title: 'Walkaway: A Novel'
+    isbn: '0765392763'
+    author: 'Doctorow, Cory'
+    leader: 'Bill Blais'
+    location: 'Bill Blais'' House'
     current: true
