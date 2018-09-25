@@ -636,4 +636,11 @@
     title: 'THEME: Digital Minimalisim or however you interpret it.'
     author: 'Any'
     leader: 'None'
+    
+-
+    date: '2018-11-03'
+    title: 'Alexander the Great'
+    author: 'Freeman, Phillip'
+    isbn: '1416592814'
+    leader: 'Bill Blais'
     current: true
