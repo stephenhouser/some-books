@@ -638,9 +638,10 @@
     leader: 'None'
     
 -
-    date: '2018-11-03'
+    date: '2018-11-17'
     title: 'Alexander the Great'
     author: 'Freeman, Phillip'
     isbn: '1416592814'
     leader: 'Bill Blais'
+    location: 'Possibly the Austins'', Farmington'
     current: true
