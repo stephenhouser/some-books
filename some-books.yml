@@ -643,5 +643,11 @@
     author: 'Freeman, Phillip'
     isbn: '1416592814'
     leader: 'Bill Blais'
-    location: 'Possibly the Austins'', Farmington'
+
+-
+    date: '2019-01-12'
+    title: 'Thomas Cromwell: A Revolutionary Life'
+    author: 'Diarmaid MacCulloch'
+    isbn: '0670025577'
+    leader: 'Bill Phillips'
     current: true
