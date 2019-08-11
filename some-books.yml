@@ -650,4 +650,11 @@
     author: 'Diarmaid MacCulloch'
     isbn: '0670025577'
     leader: 'Bill Phillips'
+
+-
+    date: '2019-09-21'
+    title: 'Range: Why Generalists Triumph in a Specialized World'
+    author: 'Epstein, David'
+    isbn: '0735214484'
+    leader: 'Bill Blais'
     current: true
