@@ -1,3 +1,22 @@
+# Newer books are most recent first
+-
+    date: '2019-10-24'
+    title: 'Into the Raging Sea: Thirty-Three Mariners, One Megastorm and the Sinking of El Faro'
+    author: 'Slade, Rachel'
+    isbn: '000830243X'
+    leader: 'Joe Austin'
+    current: true
+
+-
+    date: '2019-09-21'
+    title: 'Range: Why Generalists Triumph in a Specialized World'
+    author: 'Epstein, David'
+    isbn: '0735214484'
+    leader: 'Bill Blais'
+    notes: "Meeting at Joe's House in Farmington"
+
+# Older books are in order we read them
+
 - 
     date: '2006-11-04'
     title: 'Mayflower: A Story of Courage, Community, and War'
@@ -651,11 +670,4 @@
     isbn: '0670025577'
     leader: 'Bill Phillips'
 
--
-    date: '2019-09-21'
-    title: 'Range: Why Generalists Triumph in a Specialized World'
-    author: 'Epstein, David'
-    isbn: '0735214484'
-    leader: 'Bill Blais'
-    notes: "Meeting at Joe's House in Farmington"
-    current: true
+# End of older books, listed in order we read them
