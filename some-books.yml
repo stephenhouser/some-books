@@ -1,6 +1,12 @@
 # Newer books are most recent first
 -
     date: '2019-11-23'
+    title: 'An Odyssey: A Father, a Son, and an Epic'
+    isbn: 9780385350594
+    leader: 'Joe Austin'
+
+-
+    date: '2019-11-23'
     title: 'The Stranger in the Woods: The Extraordinary Story of the Last True Hermit'
     author: 'Finkel, Michael'
     isbn: '1101875682'
