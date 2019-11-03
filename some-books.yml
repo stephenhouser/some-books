@@ -1,10 +1,12 @@
 # Newer books are most recent first
+# Books with no 'date' are future suggestions.
+# Title, Author, ISBN are REQUIRED
 -
-    date: '2019-11-23'
     title: 'An Odyssey: A Father, a Son, and an Epic'
     author: 'Mendelsohn, Daniel'
     isbn: '0345806212'
     leader: 'Joe Austin'
+    notes: 'Suggested as a second book for November meeting as the first book is short. Read if you can, we might schedule this for December 2019.'
 
 -
     date: '2019-11-23'

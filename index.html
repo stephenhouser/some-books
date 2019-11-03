@@ -20,13 +20,17 @@
 
 		<script type="text/javascript" src="https://rawgit.com/jeremyfa/yaml.js/develop/dist/yaml.min.js"></script>"
 
-		<!-- Add to calendar functions -->
-		<!-- <script type="text/javascript" src="https://rawgit.com/carlsednaoui/add-to-calendar-buttons/master/ouical.min.js"></script> -->
-
 		<link href="https://stephenhouser.com/css/main.css" rel="stylesheet">
 
 		<style>
-			.wrapper { max-width: 80%; }
+			.wrapper { 
+				max-width: 80%; 
+			}
+
+			h2 {
+				margin-top: 1em;
+			}
+
 			#current-book img {
 				float: right;
 				margin-left: 5em;
@@ -55,12 +59,6 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
-
-			.add-to-calendar {
-				display: inline;
-				font-weight: normal;
-				margin-left: 1em;
-			}
 		</style>
 	</head>
 	<body>
@@ -75,18 +73,35 @@
 						<a><img class="cover" /></a>
 						<h3><a class="title"></a></h3>
 						<p>By <span class="author"></span></p>
-						<p>isbn: <a class="isbn"></a></p>
+						<p>ISBN: <a class="isbn"></a></p>
 						<p>Selected By: <span class="leader"></span></p>
 						<p>Meeting Date: <span class="meeting"></span>
 						<p>Notes: <span class="notes"></span></p>
 					</div>
 				</div>
 
-				<div id="book-history">
+				<div id="future-books">
+					<h2>Future Book Suggestions</h2>
+
+					<table id="future-book-list" class="display" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Cover</th>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Leader</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+
+				<div id="past-books">
 					<h2>Book History</h2>
 					<p>This is a list of all the books we have read as a group since November 2004.</p>
 
-					<table id="some-books" class="display" cellspacing="0" width="100%">
+					<table id="past-book-list" class="display" cellspacing="0" width="100%">
 						<thead>
 							<tr>
 								<th>Meeting Date</th>
@@ -143,6 +158,18 @@
 				return 'current' in book && book.current == true;
 			}
 
+			function is_past_book(book) {
+				return 'date' in book;
+			}
+
+			function is_future_book(book) {
+				return !('date' in book);
+			}
+
+			function hide_future_books() {
+				$('#future-books').hide();
+			}
+
 			function setup_current_book(book) {
 				$('#current-book .cover').attr('src', amazon_cover_uri(book.isbn));
 				$('#current-book .title').text(book.title);
@@ -169,19 +196,6 @@
 				$('#current-book a').each(function(index) {
 					$(this).attr('href', amazon_product_uri(book.isbn));
 				});
-
-				// Make an "add to calendar" link
-				// var myCalendar = createCalendar({
-				// 	options: { class: 'calendar' },
-				// 	data: {
-				// 		title: 'SoME Book Club Meeting',     // Event title
-				// 		start: meeting,   // Event start date
-				// 		duration: 120,                            // Event duration (IN MINUTES)
-				// 		address: book.location,
-				// 		description: book.title
-				// 	}
-				// });
-				// document.querySelector('.meeting').appendChild(myCalendar);
 			}
 
 			function amazon_product_uri(isbn) {
@@ -213,14 +227,64 @@
 			}
 
 			$(document).ready(function() {
-				$('#some-books').DataTable( {
+				$('#future-book-list').DataTable({
+					"ajax": {
+						"url": "some-books.yml",
+						"dataType": "text",
+						"dataSrc": function (yaml) {
+							var books = YAML.parse(yaml);
+							future_books = books.filter(is_future_book);
+							if (future_books.length == 0) {
+								hide_future_books();
+							}
+							return future_books;
+						}
+					},
+					"searching": false,
+					"info": false,
+					"paging": false,
+					"order": [[2, "desc"]],
+					"columns": [
+						{ "data": null, "width": "12%", "defaultContent": "", "orderable": false },
+						{ "data": null, "orderable": false },
+						{ "data": "title" },
+						{ "data": "author" },
+						{ "data": "leader", "defaultContent": "" },
+						{ "data": "notes", "defaultContent": "", "width": "15%" }
+					],
+					"columnDefs": [
+						// {
+						// 	"targets": 0,
+						// 	"render": function (data, type, row) {
+						// 		return "";
+						// 	}
+						// },
+						{
+							"targets": 1,
+							"render": function (data, type, row) {
+								return "<a href='" + book_uri(row) + "' target='_blank'>"
+									+ "<img height='100' src='" + thumbnail_uri(row) + "' />"
+									+ "</a>";
+							}
+						},
+						{
+							"targets": 2,
+							"render": function (data, type, row) {
+								return "<a href='" + book_uri(row) + "' target='_blank'>" + data + "</a>";
+							}
+						}
+					]
+				});
+
+				$('#past-book-list').DataTable( {
 					"ajax": {
 						"url": "some-books.yml",
 						"dataType": "text",
 						"dataSrc": function(yaml) {
 							var books = YAML.parse(yaml);
+							book_history = books.filter(is_past_book);
 							setup_current_book(books.find(is_current_book));
-							return books;
+							return book_history;
 						}
 					},
 					"paging": false,
@@ -239,8 +303,6 @@
 							"render": function(data, type, row) {
 								return "<a href='" + book_uri(row) + "' target='_blank'>"
 									+ "<img height='100' src='" + thumbnail_uri(row) + "' />"
-									//+ "<img height='100' src='" + amazon_thumbnamil_uri(row["isbn"]) + "' />"
-									//+ "<img height='100' src='" + row["cover_thumbnail"] + "' />"
 									+ "</a>";
 							}
 						},
