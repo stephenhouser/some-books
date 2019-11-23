@@ -7,6 +7,7 @@
     isbn: '0345806212'
     date: '2020-01-18'
     leader: 'Joe Austin'
+    current: true
 
 -
     date: '2019-11-23'
@@ -14,7 +15,6 @@
     author: 'Finkel, Michael'
     isbn: '1101875682'
     leader: 'Henri Moser'
-    current: true
 
 -
     date: '2019-10-26'
