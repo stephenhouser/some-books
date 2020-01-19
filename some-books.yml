@@ -3,8 +3,8 @@
 # Title, Author, ISBN are REQUIRED
 -   title: 'Education of a Wandering Man: A Memoir'
     author: "Louis L'Amour"
-    isbn: 0553286528
-    date: 2020-02-29
+    isbn: '9780553057034'
+    date: '2020-02-29'
     leader: 'Henri Moser'
     current: true
     
