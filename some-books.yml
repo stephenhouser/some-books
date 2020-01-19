@@ -1,13 +1,19 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: 'Education of a Wandering Man: A Memoir'
+    author: 'Louis L'Amour'
+    isbn: 0553286528
+    date: 2020-02-29
+    leader: 'Henri Moser'
+    current: true
+    
 -
     title: 'An Odyssey: A Father, a Son, and an Epic'
     author: 'Mendelsohn, Daniel'
     isbn: '0345806212'
     date: '2020-01-18'
     leader: 'Joe Austin'
-    current: true
 
 -
     date: '2019-11-23'
