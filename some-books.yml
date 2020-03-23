@@ -1,6 +1,14 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: 'Desert Solitaire'
+    author: 'Edward Abbey'
+    isbn: '0671695886'
+    date: '2020-04-11'
+    leader: 'Henri Moser'
+    current: true
+
+
 -   title: 'Education of a Wandering Man: A Memoir'
     author: "Louis L'Amour"
     isbn: '0553057030'
