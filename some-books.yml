@@ -1,13 +1,17 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: 'The Pioneers: The Heroic Story of the Settlers Who Brought the American Ideal West'
+    author: 'David McCullough'
+    isbn: '1501168703'
+    date: '2020-05-16'
+    leader: 'Joe Austin'
+    
 -   title: 'Desert Solitaire'
     author: 'Edward Abbey'
     isbn: '0671695886'
     date: '2020-04-11'
     leader: 'Henri Moser'
-    current: true
-
 
 -   title: 'Education of a Wandering Man: A Memoir'
     author: "Louis L'Amour"
