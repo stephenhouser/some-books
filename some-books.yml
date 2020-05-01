@@ -6,6 +6,7 @@
     isbn: '1501168703'
     date: '2020-05-16'
     leader: 'Joe Austin'
+    current: true
     
 -   title: 'Desert Solitaire'
     author: 'Edward Abbey'
@@ -18,31 +19,26 @@
     isbn: '0553057030'
     date: '2020-02-29'
     leader: 'Henri Moser'
-    current: true
     
--
-    title: 'An Odyssey: A Father, a Son, and an Epic'
+-   title: 'An Odyssey: A Father, a Son, and an Epic'
     author: 'Mendelsohn, Daniel'
     isbn: '0345806212'
     date: '2020-01-18'
     leader: 'Joe Austin'
 
--
-    date: '2019-11-23'
+-   date: '2019-11-23'
     title: 'The Stranger in the Woods: The Extraordinary Story of the Last True Hermit'
     author: 'Finkel, Michael'
     isbn: '1101875682'
     leader: 'Henri Moser'
 
--
-    date: '2019-10-26'
+-   date: '2019-10-26'
     title: 'Into the Raging Sea: Thirty-Three Mariners, One Megastorm and the Sinking of El Faro'
     author: 'Slade, Rachel'
     isbn: '000830243X'
     leader: 'Joe Austin'
 
--
-    date: '2019-09-21'
+-   date: '2019-09-21'
     title: 'Range: Why Generalists Triumph in a Specialized World'
     author: 'Epstein, David'
     isbn: '0735214484'
