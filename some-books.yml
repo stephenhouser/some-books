@@ -1,12 +1,17 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: 'The Splendid and the Vile: A Saga of Churchill, Family, and Defiance During the Blitz'
+    author: 'Larson, Erik'
+    isbn:'0385348711'
+    date: '2020-07-18'
+    current: true
+    
 -   title: 'The Plantagenets: The Warrior Kings and Queens Who Made England'
     author: 'Jones, Dan'
     isbn: '9780670026654'
     date: '2020-06-20'
     leader: 'Stephen Houser'
-    current: true
     
 -   title: 'The Pioneers: The Heroic Story of the Settlers Who Brought the American Ideal West'
     author: 'McCullough, David'
