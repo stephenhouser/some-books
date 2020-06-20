@@ -3,7 +3,7 @@
 # Title, Author, ISBN are REQUIRED
 -   title: 'The Splendid and the Vile: A Saga of Churchill, Family, and Defiance During the Blitz'
     author: 'Larson, Erik'
-    isbn:'0385348711'
+    isbn: '0385348711'
     date: '2020-07-18'
     current: true
     
