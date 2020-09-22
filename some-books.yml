@@ -1,13 +1,24 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: 'The Celestine Prophecy'
+    author: 'Redfield, James'
+    isbn: '153873026X'
+
+-   title: 'How to Hide an Empire: A Short History of the Greater United States'
+    author: 'Immerwahr, Daniel'
+    isbn: '1784703915'
+    leader: 'Bill Blais'
+    date: '2020-10-24'
+    notes: ''
+    current: true
+
 -   title: 'Genius of Place: The Life of Frederick Law Olmsted'
     author: 'Martin, Justin'
     isbn: '0306818817'
     leader: 'Rush Brown'
     date: '2020-09-19'
     notes: 'Optional meeting in Farmington or online'
-    current: true
     
 -   title: 'The Splendid and the Vile: A Saga of Churchill, Family, and Defiance During the Blitz'
     author: 'Larson, Erik'
