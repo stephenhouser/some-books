@@ -1,13 +1,43 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
--   title: 'The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous '
+-   title: 'Secrets of the Sword'
+    author: 'de Bazancourt, Cesar (Baron)'
+    isbn: '188452818X'
+    leader: 'Stephen Houser'
+
+-   title: 'Will in the World: How Shakespeare Became Shakespeare'
+    author: 'Greenblatt, Stephen'
+    isbn: '0393050572'
+    leader: 'Bill Blais'
+
+-   title: 'A Sand County Almanac: And Sketches Here and There'
+    author: 'Leopold, Aldo'
+    isbn: '978-0197500262'
+    date: '2021-04-10'
+    leader: 'Henri Moser'
+    notes: 'Meeting date is tentative'
+
+-   title: 'Farewell, My Lovely'
+    author: 'Chandler, Raymond'
+    isbn: '0394758277'
+    date: '2021-03-06'
+    leader: 'Rush Brown'
+    notes: 'Meeting date is tentative'
+
+-   title: 'Being Mortal: Medicine and What Matters in the End'
+    author: 'Gawande, Atul'
+    isbn: '9780805095159'
+    date: '2021-02-06'
+    leader: 'Bill Blais'
+    current: true
+
+-   title: 'The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous'
     author: 'Henrich, Joseph'
     isbn: '0374173222'
     date: '2021-01-09'
     leader: 'Stephen Houser'
     notes: ''
-    current: true
 
 -   title: 'The Celestine Prophecy'
     author: 'Redfield, James'
