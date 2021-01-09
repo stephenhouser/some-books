@@ -32,8 +32,6 @@
     isbn: '0805095152'
     date: '2021-02-06'
     leader: 'Bill Blais'
-    xcover_img: 'https://images-na.ssl-images-amazon.com/images/I/51C9yK9VzzL._SX329_BO1,204,203,200_.jpg'
-    xthumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51C9yK9VzzL._SX329_BO1,204,203,200_.jpg'
     current: true
 
 -   title: 'The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous'
