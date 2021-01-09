@@ -31,6 +31,8 @@
     date: '2021-02-06'
     leader: 'Bill Blais'
     current: true
+    cover_img: 'https://images-na.ssl-images-amazon.com/images/I/41QLSBTpBrL._SX331_BO1,204,203,200_.jpg'
+    thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/41QLSBTpBrL._SX331_BO1,204,203,200_.jpg'
 
 -   title: 'The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous'
     author: 'Henrich, Joseph'
