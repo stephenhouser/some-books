@@ -17,6 +17,8 @@
     date: '2021-04-10'
     leader: 'Henri Moser'
     notes: 'Meeting date is tentative'
+    cover_img: 'https://images-na.ssl-images-amazon.com/images/I/41QLSBTpBrL._SX331_BO1,204,203,200_.jpg'
+    thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/41QLSBTpBrL._SX331_BO1,204,203,200_.jpg'
 
 -   title: 'Farewell, My Lovely'
     author: 'Chandler, Raymond'
@@ -30,9 +32,9 @@
     isbn: '9780805095159'
     date: '2021-02-06'
     leader: 'Bill Blais'
+    cover_img: 'https://images-na.ssl-images-amazon.com/images/I/51C9yK9VzzL._SX329_BO1,204,203,200_.jpg'
+    thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51C9yK9VzzL._SX329_BO1,204,203,200_.jpg'
     current: true
-    cover_img: 'https://images-na.ssl-images-amazon.com/images/I/41QLSBTpBrL._SX331_BO1,204,203,200_.jpg'
-    thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/41QLSBTpBrL._SX331_BO1,204,203,200_.jpg'
 
 -   title: 'The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous'
     author: 'Henrich, Joseph'
