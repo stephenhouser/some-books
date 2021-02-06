@@ -1,6 +1,16 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: 'Who Owns the Future?'
+    author: 'Lanier, Jaron'
+    isbn: '1451654979'
+    leader: 'Bill Blais'
+
+-   title: 'How to be an Antiracist'
+    author: 'Kendi, Ibram'
+    isbn: '0525509283'
+    leader: 'Bill Blais'
+
 -   title: 'Secrets of the Sword'
     author: 'de Bazancourt, Cesar (Baron)'
     isbn: '188452818X'
