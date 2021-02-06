@@ -24,13 +24,13 @@
     date: '2021-03-06'
     leader: 'Rush Brown'
     notes: 'Meeting date is tentative'
+    current: true
 
 -   title: 'Being Mortal: Medicine and What Matters in the End'
     author: 'Gawande, Atul'
     isbn: '0805095152'
     date: '2021-02-06'
     leader: 'Bill Blais'
-    current: true
 
 -   title: 'The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous'
     author: 'Henrich, Joseph'
