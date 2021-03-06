@@ -1,7 +1,7 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
--   title: 'Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think'
+-   title: "Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think"
     author: 'Rosling, Hans'
     isbn: '1250107814'
     leader: 'Henri Moser'
@@ -32,7 +32,6 @@
     isbn: '0345345053'
     date: '2021-04-10'
     leader: 'Henri Moser'
-    notes: ''
     current: true
 
 -   title: 'Farewell, My Lovely'
