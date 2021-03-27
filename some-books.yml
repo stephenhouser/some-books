@@ -1,6 +1,11 @@
 # Newer books are most recent first
 # Books with no 'date' are future suggestions.
 # Title, Author, ISBN are REQUIRED
+-   title: "Nature's Silent Message"
+    author: "Stillman, Scott"
+    leader: "Joe Austin"
+    isbn: "1732352224"
+    
 -   title: "Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think"
     author: 'Rosling, Hans'
     isbn: '1250107814'
