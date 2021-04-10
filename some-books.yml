@@ -31,6 +31,7 @@
     isbn: '1250107814'
     leader: 'Henri Moser'
     date: '2021-05-22'
+    notes: "Meet @ Henri's House"
     current: true
 
 -   title: 'A Sand County Almanac: And Sketches Here and There'
@@ -118,7 +119,7 @@
     author: 'Finkel, Michael'
     isbn: '1101875682'
     leader: 'Henri Moser'
-
+    
 -   date: '2019-10-26'
     title: 'Into the Raging Sea: Thirty-Three Mariners, One Megastorm and the Sinking of El Faro'
     author: 'Slade, Rachel'
@@ -133,7 +134,6 @@
     notes: "Meeting at Joe's House in Farmington"
 
 # Older books are in order we read them
-
 - 
     date: '2006-11-04'
     title: 'Mayflower: A Story of Courage, Community, and War'
@@ -439,8 +439,8 @@
 -
     date:  '2013-01-12'
     title: 'The Righteous Mind: Why Good People are Divided by Politics and Religion'
-    author: Haidt, Jonathan
-    leader: Bill Phillips
+    author: 'Haidt, Jonathan'
+    leader: 'Joe Austin'
     isbn: '0307455777'
 -
     date:  '2013-02-23'
@@ -627,6 +627,7 @@
     date: '2016-10-01'
     title: 'Lyndon Johnson and the American Dream: The Most Revealing Portrait of a President and Presidential Power Ever Written'
     author: 'Doris Kearns Goodwin'
+    leader: 'Joe Austin'
     isbn: 'B010P21I1W'
 -
     date:  '2016-11-15'
@@ -659,16 +660,6 @@
     leader: Joe Austin
     notes: Two books this month. Tesla is only 50 pages or so.
     isbn: '0143109790'
-
-# Not Read
-#-
-#    date:  '2017-04-15'
-#    title: 'Hillbilly Elegy: A Memoir of a Family and Culture in Crisis'
-#    author: Vance, J. D.
-#    leader: Rush Brown
-#    notes: Read-ahead for next month (May 2017).
-#    isbn: '0062300547'
-
 -
     date:  '2017-04-15'
     title: 'Custer''s Trials: A Life on the Frontier of a New America'
@@ -689,35 +680,30 @@
     isbn: '0062457713'
     cover_img: https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL.jpg
     thumbnail: https://images-na.ssl-images-amazon.com/images/I/51VNlzbfpXL.jpg
-    
 -
     date: '2017-09-16'
     title: 'Worldly Goods: A New History of the Renissance'
     author: 'Jardine, Lisa'
     leader: 'Bill Blais'
     isbn: '0385476841'
-    
 -
     date: '2017-11-11'
     title: 'Sapiens: A Brief History of Humankind'
     author: 'Harari, Yuval Noah'
     leader: 'Stephen Houser'
     isbn: '0062316117'
-
 -
     date: '2017-12-16'
     title: 'Leonardo da Vinci'
     author: 'Isaacson, Walter'
     leader: 'Stephen Houser'
     isbn: '1501139150'
-    
 -
     date: '2018-01-28'
     title: 'The Girl with Seven Names'
     author: 'Lee, Hyeonseo'
     leader: 'Bill Phillips'
     isbn: '0007554850'
-    
 -
     date: '2018-01-28'
     title: 'Dear Leader: Poet, Spy, Escapee - A Look inside North Korea'
@@ -725,23 +711,19 @@
     leader: 'Bill Phillips'
     isbn: '1476766568'
     notes: 'Alternate or additional book for those who want more depth.'
-    
 -
     date: '2018-03-17'
     title: 'The Box: How the Shipping Container Made the World Smaller and the World Economy Bigger'
     author: 'Levinson, Marc'
     isbn: '0691170819'
     leader: 'Stephen Houser'
-    notes: 'Date is tentative'
-   
 -
     date: '2018-05-05'
     title: 'Islam and the Future of Tolerance: A Dialogue'
     author: 'Harris, Sam, Nawaz, Maajid'
     isbn: '0674088700'
     leader: 'Bill Phillips'
-    notes: 'The shorter (first) of the two for this month'
-   
+    notes: 'The shorter (first) of the two for this month'   
 -
     date: '2018-05-05'
     title: 'The Strange Death of Europe: Immigration, Identity, and Islam'
@@ -749,7 +731,6 @@
     author: 'Murray, Douglas'
     leader: 'Bill Phillips'
     notes: 'The longer (second) of the two for this month'
-   
 -
     date: '2018-06-09'
     title: '12 Rules for Life: An Antidote to Chaos'
@@ -757,7 +738,6 @@
     author: 'Peterson, Jordan'
     leader: 'Stephen Houser'
     location: 'Stephen''s House'
-
 -
     date: '2018-07-14'
     title: 'Walkaway: A Novel'
@@ -765,7 +745,6 @@
     author: 'Doctorow, Cory'
     leader: 'Bill Blais'
     location: 'Bill Blais'' House'
-
 -
     date: '2018-09-15'
     title: 'THEME: Digital Minimalisim or however you interpret it.'
