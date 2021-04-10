@@ -83,6 +83,7 @@
     author: 'Larson, Erik'
     isbn: '0385348711'
     date: '2020-08-01'
+    leader: 'Stephen Houser'
     
 -   title: 'The Plantagenets: The Warrior Kings and Queens Who Made England'
     author: 'Jones, Dan'
@@ -101,6 +102,7 @@
     isbn: '0671695886'
     date: '2020-04-11'
     leader: 'Henri Moser'
+    notes: 'First online meeting, COVID-19'
 
 -   title: 'Education of a Wandering Man: A Memoir'
     author: "L'Amour, Louis"
@@ -759,6 +761,7 @@
     author: 'Freeman, Phillip'
     isbn: '1416592814'
     leader: 'Bill Blais'
+    notes: "Resume after Bill's passing"
 
 -
     date: '2019-01-12'
@@ -766,5 +769,6 @@
     author: 'Diarmaid MacCulloch'
     isbn: '0670025577'
     leader: 'Bill Phillips'
+    notes: "Bill's last book"
 
 # End of older books, listed in order we read them
