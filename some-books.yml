@@ -6,11 +6,6 @@
     leader: "Joe Austin"
     isbn: "1732352224"
     
--   title: "Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think"
-    author: 'Rosling, Hans'
-    isbn: '1250107814'
-    leader: 'Henri Moser'
-
 -   title: 'Who Owns the Future?'
     author: 'Lanier, Jaron'
     isbn: '1451654979'
@@ -28,16 +23,26 @@
 
 -   title: 'Will in the World: How Shakespeare Became Shakespeare'
     author: 'Greenblatt, Stephen'
-    date: '2021-05-15'
     isbn: '0393050572'
     leader: 'Bill Blais'
+
+-   title: "Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think"
+    author: 'Rosling, Hans'
+    isbn: '1250107814'
+    leader: 'Henri Moser'
+    date: '2021-05-15'
+
+-   title: "Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think"
+    author: 'Rosling, Hans'
+    isbn: '1250107814'
+    leader: 'Henri Moser'
+    current: true
 
 -   title: 'A Sand County Almanac: And Sketches Here and There'
     author: 'Leopold, Aldo'
     isbn: '0345345053'
     date: '2021-04-10'
     leader: 'Henri Moser'
-    current: true
 
 -   title: 'Farewell, My Lovely'
     author: 'Chandler, Raymond'
