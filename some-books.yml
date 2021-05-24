@@ -26,13 +26,20 @@
     isbn: '0393050572'
     leader: 'Bill Blais'
 
+-   title: 'A Distant Mirror: The Calamitous 14th Century'
+    author: 'Tuchman, Barbara W.'
+    date: '2021-07-17`
+    isbn: '0394400267'
+    leader: 'Rush Brown'
+    notes: 'A little extra time for summer fun'
+    current: true
+
 -   title: "Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think"
     author: 'Rosling, Hans'
     isbn: '1250107814'
     leader: 'Henri Moser'
     date: '2021-05-22'
     notes: "Meet @ Henri's House"
-    current: true
 
 -   title: 'A Sand County Almanac: And Sketches Here and There'
     author: 'Leopold, Aldo'
