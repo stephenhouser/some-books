@@ -26,13 +26,20 @@
     isbn: '0393050572'
     leader: 'Bill Blais'
 
+-   title: 'A History of the World in 6 Glasses'
+    author: 'Standage, Tom'
+    isbn: '0802715524'
+    date: '2021-10-09'
+    leader: 'Stephen Houser'
+    notes: 'Farmington'
+    current: true
+
 -   title: 'The White Company'
     author: 'Conan-Doyle, Sir Arthur'
     isbn: '1533634661'
     date: '2021-08-21'
     leader: 'Bill Blais'
     notes: '...possibly in person!?!'
-    current: true
 
 -   title: 'A Distant Mirror: The Calamitous 14th Century'
     author: 'Tuchman, Barbara W.'
