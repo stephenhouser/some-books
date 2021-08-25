@@ -80,23 +80,6 @@
 					</div>
 				</div>
 
-				<div id="future-books">
-					<h2>Future Book Suggestions</h2>
-
-					<table id="future-book-list" class="display" cellspacing="0" width="100%">
-						<thead>
-							<tr>
-								<th></th>
-								<th>Cover</th>
-								<th>Title</th>
-								<th>Author</th>
-								<th>Leader</th>
-								<th>Notes</th>
-							</tr>
-						</thead>
-					</table>
-				</div>
-
 				<div id="past-books">
 					<h2>Book History</h2>
 					<p>This is a list of all the books we have read as a group since November 2004.</p>
@@ -126,6 +109,21 @@
 				</div>
 			</div><!-- /.container -->
 
+			<h2>Future Book Suggestions</h2>
+				<div id="future-books">
+					<table id="future-book-list" class="display" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Cover</th>
+								<th>Title</th>
+								<th>Author</th>
+								<th>Leader</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
 			<footer class='footer'>
 				<div class='container-fluid'>
 					<hr />
@@ -166,9 +164,13 @@
 				return !('date' in book);
 			}
 
-			function hide_future_books() {
-				$('#future-books').hide();
-			}
+			// function hide_future_books() {
+			// 	$('#future-books').hide();
+			// }
+
+			// function show_future_books() {
+			// 	$('#future-books').show();
+			// }
 
 			function setup_current_book(book) {
 				$('#current-book .cover').attr('src', amazon_cover_uri(book.isbn));
