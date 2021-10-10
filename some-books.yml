@@ -26,13 +26,26 @@
     isbn: '0393050572'
     leader: 'Bill Blais'
 
+-   title: '1984'
+    author: 'Orwell, George'
+    isbn: '1443434973'
+    date: '2021-11-13'
+    leader: 'Stephen Houser'
+    notes: 'Additional read if you have time. Free version: https://libcom.org/files/1984.pdf'
+
+-   title: 'Brave New World'
+    author: 'Huxley, Aldous'
+    isbn: '0061767646'
+    date: '2021-11-13'
+    leader: 'Stephen Houser'
+    notes: 'Free version: https://archive.org/details/ost-english-brave_new_world_aldous_huxley'
+    current: true
+
 -   title: 'A History of the World in 6 Glasses'
     author: 'Standage, Tom'
     isbn: '0802715524'
     date: '2021-10-09'
     leader: 'Stephen Houser'
-    notes: 'Farmington'
-    current: true
 
 -   title: 'The White Company'
     author: 'Conan-Doyle, Sir Arthur'
