@@ -26,6 +26,21 @@
     isbn: '0393050572'
     leader: 'Bill Blais'
 
+-   title: 'The Overstory'
+    author: 'Powers Richard'
+    isbn: '1784708240'
+    date: '2022-01-22'
+    leader: 'Stephen Houser'
+    notes: 'Two months, two books!'
+
+-   title: 'Fallout: The Hiroshima Cover-up and the Reporter Who Revealed It to the World'
+    author: 'Blume, Lesley'
+    isbn: '1982128518'
+    date: '2022-01-22'
+    leader: 'Bill Blais'
+    notes: 'Two months, two books!'
+    current: true
+
 -   title: '1984'
     author: 'Orwell, George'
     isbn: '1443434973'
@@ -39,7 +54,6 @@
     date: '2021-11-13'
     leader: 'Stephen Houser'
     notes: 'Free version: https://archive.org/details/ost-english-brave_new_world_aldous_huxley'
-    current: true
 
 -   title: 'A History of the World in 6 Glasses'
     author: 'Standage, Tom'
