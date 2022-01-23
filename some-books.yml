@@ -33,13 +33,21 @@
     leader: 'Stephen Houser'
     notes: 'Two months, two books!'
 
+
+-   title: 'The Only Woman in the Room: A Novel'
+    author: 'Benedict, Marie'
+    isbn: '1492666890'
+    date: '2022-03-12'
+    leader: 'Joe Austin'
+    notes: ''
+    current: true
+
 -   title: 'Fallout: The Hiroshima Cover-up and the Reporter Who Revealed It to the World'
     author: 'Blume, Lesley'
     isbn: '1982128518'
     date: '2022-01-22'
     leader: 'Bill Blais'
     notes: 'Two months, two books!'
-    current: true
 
 -   title: '1984'
     author: 'Orwell, George'
