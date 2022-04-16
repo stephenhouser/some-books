@@ -31,21 +31,23 @@
     isbn: '1982186887'
     leader: 'Rush Brown'
 
--   title: 'The Appalachian Trail: A Biography'
-    author: 'D''Anieri, Philip'
-    isbn: '0358697409'
-    leader: 'Bill Blais'
 
 # Book History
 # Newer books are most recent first
 
+-   title: 'The Appalachian Trail: A Biography'
+    author: 'D''Anieri, Philip'
+    isbn: '0358697409'
+    date: '2022-05-21'
+    leader: 'Bill Blais'
+    current: true
+    
 -   title: 'The Lincoln Highway: A Novel'
     author: 'Towles, Amor'
     isbn: '0593459873'
     date: '2022-04-16'
     leader: 'Rush Brown'
     notes: ''
-    current: true
 
 -   title: 'The Only Woman in the Room: A Novel'
     author: 'Benedict, Marie'
