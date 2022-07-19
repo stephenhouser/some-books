@@ -34,13 +34,18 @@
 
 # Book History
 # Newer books are most recent first
-
+-   title: "Talking to Strangers: What We Should Know about the People We Don't Know"
+    author: 'Gladwell, Malcolm'
+    isbn: '0316299227'
+    date: '2022-07-23'
+    leader: 'Stephen Houser'
+    current: true
+    
 -   title: 'The Appalachian Trail: A Biography'
     author: 'D''Anieri, Philip'
     isbn: '0358697409'
     date: '2022-06-25'
     leader: 'Bill Blais'
-    current: true
     
 -   title: 'The Lincoln Highway: A Novel'
     author: 'Towles, Amor'
