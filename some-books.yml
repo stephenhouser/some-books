@@ -31,15 +31,20 @@
     isbn: '1982186887'
     leader: 'Rush Brown'
 
-
 # Book History
 # Newer books are most recent first
+-   title: 'The Burgess Boys: A Novel'
+    author: 'Strout, Elizabeth'
+    isbn: '9781400067688'
+    date: '2022-08-27'
+    leader: 'Henri Moser'
+    current: true
+
 -   title: "Talking to Strangers: What We Should Know about the People We Don't Know"
     author: 'Gladwell, Malcolm'
     isbn: '0316299227'
     date: '2022-07-30'
     leader: 'Stephen Houser'
-    current: true
     
 -   title: 'The Appalachian Trail: A Biography'
     author: 'D''Anieri, Philip'
