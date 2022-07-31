@@ -35,7 +35,8 @@
 # Newer books are most recent first
 -   title: 'The Burgess Boys: A Novel'
     author: 'Strout, Elizabeth'
-    isbn: '9781400067688'
+    realisbn: '9781400067688'
+    isbn: '1400067685'
     date: '2022-08-27'
     leader: 'Henri Moser'
     current: true
