@@ -33,13 +33,19 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Puzzler: One Man's Quest to Solve the Most Baffling Puzzles Ever, from Crosswords to Jigsaws to the Meaning of Life'
+    author: 'Jacobs, A.J.'
+    isbn: '0593136713'
+    date: '2022-10-01'
+    leader: 'Stephen Houser'
+    current: true
+
 -   title: 'The Burgess Boys: A Novel'
     author: 'Strout, Elizabeth'
     realisbn: '9781400067688'
     isbn: '1400067685'
     date: '2022-08-27'
     leader: 'Henri Moser'
-    current: true
 
 -   title: "Talking to Strangers: What We Should Know about the People We Don't Know"
     author: 'Gladwell, Malcolm'
