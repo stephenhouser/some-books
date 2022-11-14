@@ -33,13 +33,20 @@
 
 # Book History
 # Newer books are most recent first
+-   title: "Survival of the Richest: escape fantasies of the tech billionaires"
+    author: "Rushkoff, Douglas"
+    isbn: '0393881067'
+    date: '2022-12-10'
+    leader: 'Bill Blais'
+    notes: 'Alternate: Winners Take All: The Elite Charade of Changing the World, Giridharadas, Anand'
+    current: true
+
 -   title: "American Nations: A History of the Eleven Rival Regional Cultures of North America"
     author: "Woodard, Colin"
     isbn: '0670022969'
     date: '2022-11-12'
     leader: 'Bill Blais'
     notes: '384 pages'
-    current: true
 
 -   title: "The Puzzler: One Man's Quest to Solve the Most Baffling Puzzles Ever, from Crosswords to Jigsaws to the Meaning of Life"
     author: 'Jacobs, A.J.'
