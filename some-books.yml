@@ -33,13 +33,27 @@
 
 # Book History
 # Newer books are most recent first
+-   title: "Visual Thinking: The Hidden Gifts of People Who Think in Pictures, Patterns, and Abstractions"
+    author: "Grandin, Temple"
+    isbn: '0593418360'
+    date: '2023-04-11'
+    leader: 'Bill Blais'
+    notes: ''
+    current: true
+
+-   title: "The Wealth of Nations, Book 1"
+    author: "Smith, Adam"
+    isbn: '979-8755423304'
+    date: '2023-01-14'
+    leader: 'Stephen Houser'
+    notes: 'Reading only book 1 to see if we continue'
+
 -   title: "Survival of the Richest: escape fantasies of the tech billionaires"
     author: "Rushkoff, Douglas"
     isbn: '0393881067'
     date: '2022-12-10'
     leader: 'Bill Blais'
     notes: ''
-    current: true
 
 -   title: "American Nations: A History of the Eleven Rival Regional Cultures of North America"
     author: "Woodard, Colin"
