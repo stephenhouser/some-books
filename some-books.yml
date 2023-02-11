@@ -11,11 +11,6 @@
     isbn: '1451654979'
     leader: 'Bill Blais'
 
--   title: 'How to be an Antiracist'
-    author: 'Kendi, Ibram'
-    isbn: '0525509283'
-    leader: 'Bill Blais'
-
 -   title: 'Secrets of the Sword'
     author: 'de Bazancourt, Cesar (Baron)'
     isbn: '188452818X'
@@ -33,13 +28,22 @@
 
 # Book History
 # Newer books are most recent first
+
+-   title: "The March of Folly: From Troy to Vietnam"
+    author: "Tuchman, Barbara"
+    isbn: '0394527771'
+    date: '2023-03-19'
+    leader: 'Stephen Houser'
+    notes: 'Sunday'
+    current: true
+
+
 -   title: "Visual Thinking: The Hidden Gifts of People Who Think in Pictures, Patterns, and Abstractions"
     author: "Grandin, Temple"
     isbn: '0593418360'
-    date: '2023-04-11'
+    date: '2023-02-11'
     leader: 'Bill Blais'
     notes: ''
-    current: true
 
 -   title: "The Wealth of Nations, Book 1"
     author: "Smith, Adam"
