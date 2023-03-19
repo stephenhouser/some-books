@@ -58,6 +58,8 @@
     date: '2023-01-14'
     leader: 'Stephen Houser'
     notes: 'Reading only book 1 to see if we continue'
+    cover_img: https://m.media-amazon.com/images/I/51xPjlGKAWL._SX398_BO1,204,203,200_.jpg
+    thumbnail: https://m.media-amazon.com/images/I/51xPjlGKAWL._SX398_BO1,204,203,200_.jpg
 
 -   title: "Survival of the Richest: escape fantasies of the tech billionaires"
     author: "Rushkoff, Douglas"
