@@ -42,7 +42,9 @@
     date: '2023-03-19'
     leader: 'Stephen Houser'
     notes: 'Sunday'
-
+    cover_img: https://m.media-amazon.com/images/I/51Z-fwquYML._SX373_BO1,204,203,200_.jpg
+    thumbnail: https://m.media-amazon.com/images/I/51Z-fwquYML._SX373_BO1,204,203,200_.jpg
+    
 -   title: "Visual Thinking: The Hidden Gifts of People Who Think in Pictures, Patterns, and Abstractions"
     author: "Grandin, Temple"
     isbn: '0593418360'
