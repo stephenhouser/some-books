@@ -30,7 +30,7 @@
 # Newer books are most recent first
 -   title: "Down the River unto the Sea"
     author: "Mosley, Walter"
-    isbn: 9780316509640
+    isbn: '978-0316509640'
     date: '2023-04-29'
     leader: 'Rush Brown'
     notes: '2nd book; Every Man a King (optional)'
@@ -42,8 +42,8 @@
     date: '2023-03-19'
     leader: 'Stephen Houser'
     notes: 'Sunday'
-    cover_img: https://m.media-amazon.com/images/I/51Z-fwquYML._SX373_BO1,204,203,200_.jpg
-    thumbnail: https://m.media-amazon.com/images/I/51Z-fwquYML._SX373_BO1,204,203,200_.jpg
+    cover_img: 'https://m.media-amazon.com/images/I/51Z-fwquYML._SX373_BO1,204,203,200_.jpg'
+    thumbnail: 'https://m.media-amazon.com/images/I/51Z-fwquYML._SX373_BO1,204,203,200_.jpg'
     
 -   title: "Visual Thinking: The Hidden Gifts of People Who Think in Pictures, Patterns, and Abstractions"
     author: "Grandin, Temple"
@@ -58,8 +58,8 @@
     date: '2023-01-14'
     leader: 'Stephen Houser'
     notes: 'Reading only book 1 to see if we continue'
-    cover_img: https://m.media-amazon.com/images/I/51xPjlGKAWL._SX398_BO1,204,203,200_.jpg
-    thumbnail: https://m.media-amazon.com/images/I/51xPjlGKAWL._SX398_BO1,204,203,200_.jpg
+    cover_img: 'https://m.media-amazon.com/images/I/51xPjlGKAWL._SX398_BO1,204,203,200_.jpg'
+    thumbnail: 'https://m.media-amazon.com/images/I/51xPjlGKAWL._SX398_BO1,204,203,200_.jpg'
 
 -   title: "Survival of the Richest: escape fantasies of the tech billionaires"
     author: "Rushkoff, Douglas"
