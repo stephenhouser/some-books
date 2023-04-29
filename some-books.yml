@@ -28,13 +28,20 @@
 
 # Book History
 # Newer books are most recent first
+-   title: "The Year 1000: When Explorers Connected the World―and Globalization "
+    author: "Hanesn, Valierie"
+    isbn: '1501194100'
+    date: '2023-06-24'
+    leader: 'Bill Blais'
+    notes: ''
+    current: true
+    
 -   title: "Down the River unto the Sea"
     author: "Mosley, Walter"
     isbn: '0316509647'
     date: '2023-04-29'
     leader: 'Rush Brown'
     notes: '2nd book; Every Man a King (optional)'
-    current: true
 
 -   title: "The March of Folly: From Troy to Vietnam"
     author: "Tuchman, Barbara"
