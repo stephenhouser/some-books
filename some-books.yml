@@ -21,20 +21,22 @@
     isbn: '0393050572'
     leader: 'Bill Blais'
 
+
+# Book History
+# Newer books are most recent first
 -   title: 'Cloud Cuckoo Land'
     author: 'Doerr, Anthony'
     isbn: '1982186887'
     leader: 'Rush Brown'
+    date: '2023-07-29'
+    current: true
 
-# Book History
-# Newer books are most recent first
 -   title: "The Year 1000: When Explorers Connected the World―and Globalization "
     author: "Hanesn, Valierie"
     isbn: '1501194100'
     date: '2023-06-24'
     leader: 'Bill Blais'
     notes: ''
-    current: true
     
 -   title: "Down the River unto the Sea"
     author: "Mosley, Walter"
