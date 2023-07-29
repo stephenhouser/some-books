@@ -24,12 +24,24 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Mytical Man Month'
+    author: 'Brooks, Fredrick'
+    isbn: '9780201835953'
+    leader: 'Bill & Stephen'
+    date: '2023-08-26'
+
+-   title: 'Frankenstein'
+    author: 'Shelley, Mary'
+    isbn: '1512308056'
+    leader: 'Joe Austin'
+    date: '2023-08-26'
+    current: true
+
 -   title: 'Cloud Cuckoo Land'
     author: 'Doerr, Anthony'
     isbn: '1982186887'
     leader: 'Rush Brown'
     date: '2023-07-29'
-    current: true
 
 -   title: "The Year 1000: When Explorers Connected the World―and Globalization "
     author: "Hanesn, Valierie"
