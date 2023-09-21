@@ -24,6 +24,13 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'Kim'
+    author: 'Kipling, Rudyard'
+    isbn: '1976234395'
+    leader: 'Rush Brown'
+    date: '2023-10-14'
+    current: true
+
 -   title: 'The Mytical Man Month'
     author: 'Brooks, Fredrick'
     isbn: '9780201835953'
@@ -35,7 +42,6 @@
     isbn: '1512308056'
     leader: 'Joe Austin'
     date: '2023-08-26'
-    current: true
 
 -   title: 'Cloud Cuckoo Land'
     author: 'Doerr, Anthony'
