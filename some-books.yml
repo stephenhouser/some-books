@@ -21,15 +21,20 @@
     isbn: '0393050572'
     leader: 'Bill Blais'
 
-
 # Book History
 # Newer books are most recent first
+-   title: 'On Writing Well: The Classic Guide to Writing'
+    author: 'King, Stephen'
+    isbn: '9780060891541'
+    leader: 'Stephen'
+    date: '2023-11-18'
+    current: true
+
 -   title: 'Kim'
     author: 'Kipling, Rudyard'
     isbn: '1976234395'
     leader: 'Rush Brown'
     date: '2023-10-14'
-    current: true
 
 -   title: 'The Mytical Man Month'
     author: 'Brooks, Fredrick'
