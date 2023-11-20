@@ -23,12 +23,19 @@
 
 # Book History
 # Newer books are most recent first
--   title: 'On Writing Well: The Classic Guide to Writing'
+-   title: 'Shadow Divers: The True Adventure of Two Americans Who Risked Everything to Solve One of the Last Mysteries of World War II'
+    author: 'Kurson, Robert'
+    isbn: '0375508589'
+    leader: 'Bill'
+    date: '2024-01-13'
+    current: true
+
+
+-   title: 'On Writing: A Memoir of the Craft (A Memoir of the Craft)'
     author: 'King, Stephen'
-    isbn: '0060891548'
+    isbn: '1982159375'
     leader: 'Stephen'
     date: '2023-11-18'
-    current: true
 
 -   title: 'Kim'
     author: 'Kipling, Rudyard'
