@@ -23,13 +23,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'North Woods: A Novel'
+    author: 'Mason, Daniel'
+    isbn: '0593793722'
+    leader: 'Joe'
+    date: '2024-02-17'
+    current: true
+
 -   title: 'Shadow Divers: The True Adventure of Two Americans Who Risked Everything to Solve One of the Last Mysteries of World War II'
     author: 'Kurson, Robert'
     isbn: '0375508589'
     leader: 'Bill'
     date: '2024-01-13'
-    current: true
-
 
 -   title: 'On Writing: A Memoir of the Craft (A Memoir of the Craft)'
     author: 'King, Stephen'
