@@ -23,12 +23,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Book of Joy: Lasting Happiness in a Changing World'
+    author: 'His Holiness the Dalai Lama'
+    isbn: 'B01IQ15JA0'
+    leader: 'Joe'
+    date: '2024-03-2'
+    current: true
+
 -   title: 'North Woods: A Novel'
     author: 'Mason, Daniel'
     isbn: '0593793722'
     leader: 'Joe'
     date: '2024-02-17'
-    current: true
 
 -   title: 'Shadow Divers: The True Adventure of Two Americans Who Risked Everything to Solve One of the Last Mysteries of World War II'
     author: 'Kurson, Robert'
