@@ -23,6 +23,13 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'Everett, Percival'
+    author: 'His Holiness the Dalai Lama'
+    isbn: '0593862732'
+    leader: 'Rush'
+    date: '2024-06-08'
+    current: true
+
 -   title: 'The Book of Joy: Lasting Happiness in a Changing World'
     author: 'His Holiness the Dalai Lama'
     isbn: '9781524708634'
@@ -30,7 +37,6 @@
     date: '2024-04-06'
     cover_img: 'https://m.media-amazon.com/images/I/81c8pIrNUqL._SL1500_.jpg'
     thumbnail: 'https://m.media-amazon.com/images/I/81c8pIrNUqL._SL1500_.jpg'
-    current: true
 
 -   title: 'North Woods: A Novel'
     author: 'Mason, Daniel'
