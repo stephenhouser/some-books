@@ -23,11 +23,11 @@
 
 # Book History
 # Newer books are most recent first
--   title: 'Everett, Percival'
-    author: 'His Holiness the Dalai Lama'
+-   title: 'James'
+    author: 'Everett, Percival'
     isbn: '0593862732'
     leader: 'Rush'
-    date: '2024-06-08'
+    date: '2024-06-15'
     current: true
 
 -   title: 'The Book of Joy: Lasting Happiness in a Changing World'
