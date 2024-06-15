@@ -1,26 +1,5 @@
 # Title, Author, ISBN are REQUIRED
 
-# Future Book Suggestions (they have no date)
--   title: "Nature's Silent Message"
-    author: "Stillman, Scott"
-    leader: "Joe Austin"
-    isbn: "1732352224"
-    
--   title: 'Who Owns the Future?'
-    author: 'Lanier, Jaron'
-    isbn: '1451654979'
-    leader: 'Bill Blais'
-
--   title: 'Secrets of the Sword'
-    author: 'de Bazancourt, Cesar (Baron)'
-    isbn: '188452818X'
-    leader: 'Stephen Houser'
-
--   title: 'Will in the World: How Shakespeare Became Shakespeare'
-    author: 'Greenblatt, Stephen'
-    isbn: '0393050572'
-    leader: 'Bill Blais'
-
 # Book History
 # Newer books are most recent first
 -   title: 'The Meaning of It All: Thoughts of a Citizen-Scientist'
@@ -979,3 +958,26 @@
     notes: "Bill's last book"
 
 # End of older books, listed in order we read them
+
+
+
+# Future Book Suggestions (they have no date)
+-   title: "Nature's Silent Message"
+    author: "Stillman, Scott"
+    leader: "Joe Austin"
+    isbn: "1732352224"
+    
+-   title: 'Who Owns the Future?'
+    author: 'Lanier, Jaron'
+    isbn: '1451654979'
+    leader: 'Bill Blais'
+
+-   title: 'Secrets of the Sword'
+    author: 'de Bazancourt, Cesar (Baron)'
+    isbn: '188452818X'
+    leader: 'Stephen Houser'
+
+-   title: 'Will in the World: How Shakespeare Became Shakespeare'
+    author: 'Greenblatt, Stephen'
+    isbn: '0393050572'
+    leader: 'Bill Blais'
