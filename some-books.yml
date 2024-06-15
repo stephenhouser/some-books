@@ -23,12 +23,26 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Meaning of It All: Thoughts of a Citizen-Scientist'
+    author: 'Feynman, Richard P.'
+    isbn: '9780465023943'
+    leader: 'Bill'
+    date: '2024-08-24'
+    notes: '2 books'
+    current: true
+
+-   title: 'The Bean Trees: A Novel'
+    author: 'Kingsolver, Barbara'
+    isbn: '978-0061765223'
+    leader: 'Henri'
+    date: '2024-08-24'
+    notes: '2 books'
+
 -   title: 'James'
     author: 'Everett, Percival'
     isbn: '0593862732'
     leader: 'Rush'
     date: '2024-06-15'
-    current: true
 
 -   title: 'The Book of Joy: Lasting Happiness in a Changing World'
     author: 'His Holiness the Dalai Lama'
