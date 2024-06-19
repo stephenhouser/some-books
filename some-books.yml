@@ -6,7 +6,7 @@
     author: 'Feynman, Richard P.'
     isbn: '0465023940'
     leader: 'Bill'
-    date: '2024-08-24'
+    date: '2024-08-17'
     notes: '2 books'
     current: true
 
@@ -14,7 +14,7 @@
     author: 'Kingsolver, Barbara'
     isbn: '0060175796'
     leader: 'Henri'
-    date: '2024-08-24'
+    date: '2024-08-17'
     notes: '2 books'
 
 -   title: 'James'
