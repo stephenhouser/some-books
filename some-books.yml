@@ -2,12 +2,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Pentagon's Brain: An Uncensored History of DARPA, America's Top-Secret Military Research Agency'
+    author: 'Jacobsen, Annie'
+    isbn: '031638769X'
+    leader: 'Joe'
+    date: '2024-10-26'
+    current: true
+
 -   title: 'The Demon of Unrest: A Saga of Hubris, Heartbreak, and Heroism at the Dawn of the Civil War'
     author: 'Larsen, Erik'
     isbn: '0593861833'
     leader: 'Stephen'
     date: '2024-09-28'
-    current: true
     
 -   title: 'The Meaning of It All: Thoughts of a Citizen-Scientist'
     author: 'Feynman, Richard P.'
