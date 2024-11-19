@@ -2,12 +2,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants'
+    author: 'Kimmerer, Robin Wall'
+    isbn: '1571311777'
+    leader: 'Joe & Bill'
+    date: '2025-01-11'
+    current: true
+
 -   title: 'The Pentagons Brain: An Uncensored History of DARPA, Americas Top-Secret Military Research Agency'
     author: 'Jacobsen, Annie'
     isbn: '031638769X'
     leader: 'Joe'
     date: '2024-11-16'
-    current: true
 
 -   title: 'The Demon of Unrest: A Saga of Hubris, Heartbreak, and Heroism at the Dawn of the Civil War'
     author: 'Larsen, Erik'
