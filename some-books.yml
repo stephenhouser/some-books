@@ -2,12 +2,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Wager: A Tale of Shipwreck, Mutiny and Murder'
+    author: 'Grann, David'
+    isbn: '0307742490'
+    leader: 'Rush'
+    date: '2025-03-15'
+    current: true
+
 -   title: 'Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants'
     author: 'Kimmerer, Robin Wall'
     isbn: '1571311777'
     leader: 'Joe & Bill'
     date: '2025-01-18'
-    current: true
 
 -   title: 'The Pentagons Brain: An Uncensored History of DARPA, Americas Top-Secret Military Research Agency'
     author: 'Jacobsen, Annie'
