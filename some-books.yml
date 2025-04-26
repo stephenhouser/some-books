@@ -2,12 +2,19 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'Blacktop Wasteland'
+    author: 'Cosby, S. A.'
+    isbn: '1250252695'
+    leader: 'Joe A.'
+    date: '2025-05-31'
+    current: true
+
+
 -   title: 'The Infidel and the Professor: David Hume, Adam Smith, and the Friendship That Shaped Modern Thought'
     author: 'Rasmussen, Dennis'
     isbn: '0691192286'
     leader: 'Joe S.'
     date: '2025-04-26'
-    current: true
 
 -   title: 'The Wager: A Tale of Shipwreck, Mutiny and Murder'
     author: 'Grann, David'
