@@ -2,12 +2,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'The Silk Roads: A New History of the World'
+    author: 'Frankopan, Peter'
+    isbn: '1101912375'
+    leader: 'Bill B.'
+    date: '2025-08-16'
+    current: true
+
 -   title: 'Blacktop Wasteland'
     author: 'Cosby, S. A.'
     isbn: '1250252695'
     leader: 'Joe A.'
     date: '2025-06-14'
-    current: true
 
 -   title: 'The Infidel and the Professor: David Hume, Adam Smith, and the Friendship That Shaped Modern Thought'
     author: 'Rasmussen, Dennis'
