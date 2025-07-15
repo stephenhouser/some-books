@@ -1,0 +1,14 @@
+{
+	"short_name": "SoME Books",
+	"name": "SoME Book Club",
+	"icons": [
+		{
+			"src": "icon-96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		}
+	],
+  	"display": "standalone",
+  	"orientation": "portrait",
+  	"start_url": "index.html"
+}
