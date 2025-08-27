@@ -2,12 +2,19 @@
 
 # Book History
 # Newer books are most recent first
+
+-   title: 'Timekeepers: How the World Became Obsessed with Time '
+    author: 'Garfield, Simon'
+    isbn: '978-1782113201'
+    leader: 'Bill B.'
+    date: '2025-09-27'
+    current: true
+    
 -   title: 'The Silk Roads: A New History of the World'
     author: 'Frankopan, Peter'
     isbn: '1101912375'
     leader: 'Bill B.'
     date: '2025-08-16'
-    current: true
 
 -   title: 'Blacktop Wasteland'
     author: 'Cosby, S. A.'
