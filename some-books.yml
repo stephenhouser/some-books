@@ -8,6 +8,8 @@
     isbn: '978-1782113201'
     leader: 'Bill B.'
     date: '2025-09-27'
+    cover_img: 'https://m.media-amazon.com/images/I/81xs5tOFzpL._SY385_.jpg'
+    thumbnail: 'https://m.media-amazon.com/images/I/81xs5tOFzpL._SY385_.jpg'
     current: true
     
 -   title: 'The Silk Roads: A New History of the World'
