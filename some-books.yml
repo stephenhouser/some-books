@@ -2,14 +2,19 @@
 
 # Book History
 # Newer books are most recent first
-
+-   title: 'The Cost of Conviction: How Our Deepest Values Lead Us Astray'
+    author: 'Sloman, Steven'
+    isbn: '0262049821'
+    leader: 'Stephen'
+    date: '2025-12-13'
+    current: true
+    
 -   title: 'Mythos: Ancient Greek Mythology Book for Adults'
     author: 'Fry, Stephen'
     isbn: '1452178917'
     leader: 'Rush'
     date: '2025-11-01'
     notes: 'Farmington'
-    current: true
 
 -   title: 'Timekeepers: How the World Became Obsessed with Time '
     author: 'Garfield, Simon'
