@@ -2,12 +2,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'David Copperfield'
+    author: 'Dickens, Charles'
+    isbn: '0140439447'
+    leader: 'Stephen H.'
+    date: '2026-05-09'
+    current: true
+
 -   title: 'Frostbite: How Refrigeration Changed Our Food, Our Planet, and Ourselves'
     author: 'Twilley, Nicola'
     isbn: ' 0735223300'
     leader: 'Joe A.'
     date: '2026-03-14'
-    current: true
 
 -   title: 'An African History of Africa: From the Dawn of Humanity to Independence – An International Bestseller Told Through the Voices of Africans'
     author: 'Badawi, Zeinab'
