@@ -2,12 +2,18 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'Rope: How a Bundle of Twisted Fibers Became the Backbone of Civilization'
+    author: 'Queeney, Tim'
+    isbn: 'B0F71NNZD3'
+    leader: 'Bill B.'
+    date: '2026-07-11'
+    current: true
+    
 -   title: 'David Copperfield'
     author: 'Dickens, Charles'
     isbn: '0140439447'
     leader: 'Stephen H.'
     date: '2026-05-09'
-    current: true
 
 -   title: 'Frostbite: How Refrigeration Changed Our Food, Our Planet, and Ourselves'
     author: 'Twilley, Nicola'
