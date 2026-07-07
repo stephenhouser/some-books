@@ -2,6 +2,12 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'Project Hail Mary'
+    author: 'Weir, Andy'
+    isbn: '0593135229'
+    leader: 'Joe A.'
+    notes: 'Proposed for July/August 2026'
+
 -   title: 'Rope: How a Bundle of Twisted Fibers Became the Backbone of Civilization'
     author: 'Queeney, Tim'
     isbn: '1250346452'
