@@ -2,13 +2,19 @@
 
 # Book History
 # Newer books are most recent first
+-   title: 'All Systems Red : Book 1 of 8: The Murderbot Diaries'
+    author: 'Wells, Martha'
+    isbn: ' 9780765397539'
+    leader: 'Bill B.'
+    date: '2026-10-10'
+    current: true
+
 -   title: 'Project Hail Mary'
     author: 'Weir, Andy'
     isbn: '0593135229'
     leader: 'Joe A.'
     notes: 'Proposed for July/August 2026'
     date: '2026-08-22'
-    current: true
 
 -   title: 'Rope: How a Bundle of Twisted Fibers Became the Backbone of Civilization'
     author: 'Queeney, Tim'
